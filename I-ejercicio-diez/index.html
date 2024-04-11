@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Contacto</h1>
+    <form action="https://localhost:8080/api/registro">
+        <label for="Nombre">
+            <p>Nombre</p>
+        </label>
+        <input type="text" name="Nombre" id="Nombre">
+
+        <label for="correo-electronico">
+            <p>Direccion de correo electronico</p>
+        </label>
+        <input type="email" name="Correo" id="correo-electronico">
+
+        <label for="Mensaje">
+            <p>Mensaje</p>
+        </label>
+        <input type="text" name="Mensaje" id="Mensaje">
+
+        <label for="Motivo">
+            <p>Motivo</p>
+        </label>
+        <select name="Motivo" id="Motivo">
+            <option value="Consulta">Consulta</option>
+            <option value="Comentario">Comentario</option>
+            <option value="Problema">Problema</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+input {
+    background-color: lightgray;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#Enviar {
+    color: white;
+    background-color: darkgreen;
+    margin-top: 16px;
+}

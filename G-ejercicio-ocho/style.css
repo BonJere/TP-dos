@@ -1,0 +1,19 @@
+h2 {
+    font-weight: bold;
+    color: blue;
+    margin: 20px;
+    padding: 8px;
+
+}
+
+div p {
+    background-color: #CC2345;
+    margin: 20px;
+    padding: 8px;
+}
+
+footer p {
+    color: grey;
+    margin: 20px;
+    padding: 8px;
+}
